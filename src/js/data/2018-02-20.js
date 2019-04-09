@@ -1,4 +1,4 @@
-dataSetVersion = "2019-02-23"; // Change this when creating a new data set version. YYYY-MM-DD format.
+dataSetVersion = "2019-04-09"; // Change this when creating a new data set version. YYYY-MM-DD format.
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -8,33 +8,7 @@ dataSet[dataSetVersion].options = [
     tooltip: "Check this to restrict to certain series.",
     checked: false,
     sub: [
-      { name: "Books and CDs", key: "book" },
-      { name: "The Highly Responsive to Prayers", tooltip: "01 - Reiiden", key: "HRtP" },
-      { name: "The Story of Eastern Wonderland", tooltip: "02 - Fuumaroku", key: "SoEW" },
-      { name: "Phantasmagoria of Dim.Dream", tooltip: "03 - Yumejikuu", key: "PoDD" },
-      { name: "Lotus Land Story", tooltip: "04 - Gensoukyou", key: "LLS" },
-      { name: "Mystic Square", tooltip: "05 - Kaikidan", key: "MS" },
-      { name: "Embodiment of Scarlet Devil", tooltip: "06 - Koumakan", key: "EoSD" },
-      { name: "Perfect Cherry Blossom", tooltip: "07 - Youyoumu", key: "PCB" },
-      { name: "Immaterial and Missing Power", tooltip: "07.5 - Suimusou", key: "IaMP" },
-      { name: "Imperishable Night", tooltip: "08 - Eiyashou", key: "IN" },
-      { name: "Phantasmagoria of Flower View", tooltip: "09 - Kaeidzuka", key: "PoFV" },
-      { name: "Shoot the Bullet", tooltip: "09.5 - Bunkachou", key: "StB" },
-      { name: "Mountain of Faith", tooltip: "10 - Fuujinroku", key: "MoF" },
-      { name: "Scarlet Weather Rhapsody", tooltip: "10.5 - Hisouten", key: "SWR" },
-      { name: "Subterranean Animism", tooltip: "11 - Chireiden", key: "SA" },
-      { name: "Undefined Fantastic Object", tooltip: "12 - Seirensen", key: "UFO" },
-      { name: "Touhou Hisoutensoku", tooltip: "12.3 - Hisoutensoku", key: "soku" },
-      { name: "Double Spoiler", tooltip: "12.5 - Bunkachou", key: "DS" },
-      { name: "Great Fairy Wars", tooltip: "12.8 - Daisensou", key: "GFW" },
-      { name: "Ten Desires", tooltip: "13 - Shinreibyou", key: "TD" },
-      { name: "Hopeless Masquerade", tooltip: "13.5 - Shinkirou", key: "HM" },
-      { name: "Double Dealing Character", tooltip: "14 - Kishinjou", key: "DDC" },
-      { name: "Impossible Spell Card", tooltip: "14.3 - Amanojaku", key: "ISC" },
-      { name: "Urban Legend in Limbo", tooltip: "14.5 - Shinpiroku", key: "ULiL" },
-      { name: "Legacy of Lunatic Kingdom", tooltip: "15 - Kanjuden", key: "LoLK" },
-      { name: "Antinomy of Common Flowers", tooltip: "15.5 - Hyouibana", key: "AoCF" },
-      { name: "Hidden Star in Four Seasons", tooltip: "16 - Tenkuushou", key: "HSiFS" }
+      { name: "IDOLS", tooltip: "01 - KPOP", key: "IDOL" }
     ]
   },
   {
@@ -59,283 +33,300 @@ dataSet[dataSetVersion].options = [
 
 dataSet[dataSetVersion].characterData = [
   {
-    name: "D.O.",
-    img: "ddLVXQa.jpg",
+    name: "Taeyeon",
+    img: "TNc2jzr.jpg",
     opts: {
-      series: [ "EXO" ],
+      series: [ "IDOL" ],
       stage: []
     }
   },
   {
-    name: "Hueningkai",
-    img: "Kduo3SB.jpg",
+    name: "Naeyoung",
+    img: "OurB7vW.jpg",
     opts: {
-      series: [ "TXT" ],
+      series: [ "IDOL" ],
       stage: []
     }
   },
   {
-    name: "Lisa",
-    img: "50Vk58g.jpg",
+    name: "N",
+    img: "Y0Be4Vl.jpg",
     opts: {
-      series: ["Blackpink"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Amber",
-    img: "XXqBgk8.jpg",
+    name: "Tiffany",
+    img: "GIHPPur.jpg",
     opts: {
-      series: ["Fx"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Shinwon",
-    img: "ZtynYjj.jpg",
+    name: "Krystal",
+    img: "1LCiRhy.png",
     opts: {
-      series: [ "Pentagon" ],
+      series: [ "IDOL" ],
       stage: []
     }
   },
   {
-    name: "Jinjin",
-    img: "bHO8WlE.jpg",
+    name: "Moonbin",
+    img: "eDgHl1l.jpg",
     opts: {
-      series: ["Astro"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Jooe",
-    img: "F6AR6Ws.jpg",
+    name: "Miyeon",
+    img: "KY22QF6.jpg",
     opts: {
-      series: ["Momoland"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Johnny",
-    img: "5He866U.png",
+    name: "Kyulkyung",
+    img: "UVvNPNN.png",
     opts: {
-      series: ["NCT"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Daesung",
-    img: "FcN2WPf.jpg",
+    name: "Mingyu",
+    img: "qlq2iwe.jpg",
     opts: {
-      series: [ "Bigbang" ],
+      series: [ "IDOL" ],
       stage: []
     }
   },
   {
-    name: "Yeosang",
-    img: "iEjtkAt.jpg",
+    name: "Rowoon",
+    img: "vcVcZ77.jpg",
     opts: {
-      series: ["Ateez"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Jihyo",
-    img: "LZYjjFq.jpg",
+    name: "Luda",
+    img: "QqXHDp8.jpg",
     opts: {
-      series: ["Twice"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Jimin",
-    img: "LDOaPZW.jpg",
+    name: "Mina 01",
+    img: "eutOYu5.jpg",
     opts: {
-      series: ["AOA"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Hui",
-    img: "mzuDONJ.jpg",
+    name: "Mina 02",
+    img: "lSKo3Ay.jpg",
     opts: {
-      series: ["Pentagon"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "EDawn",
-    img: "mnpar47.jpg",
+    name: "Luna",
+    img: "Kj2fHHT.jpg",
     opts: {
-      series: ["Pentagon"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Hwasa",
-    img: "Gud8Eae.jpg",
+    name: "Seulgi",
+    img: "1aCoS85.jpg",
     opts: {
-      series: ["Mamamoo"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Hyolyn",
-    img: "TDZMQlK.jpg",
+    name: "Yuna",
+    img: "CatYA9V.png",
     opts: {
-      series: ["Sistar"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Jhope",
-    img: "lbBghXu.png",
+    name: "Yeeun",
+    img: "Cc8V8eS.jpg",
     opts: {
-      series: ["BTS"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Kai",
-    img: "o3ymd56.jpg",
+    name: "Sunmi",
+    img: "ljN7ATH.jpg",
     opts: {
-      series: ["EXO"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Taemin",
-    img: "pDHSFHA.jpg",
+    name: "Ryujin",
+    img: "OXc1N2F.png",
     opts: {
-      series: [ "Shinee" ],
+      series: [ "IDOL" ],
       stage: []
     }
   },
   {
-    name: "Mark Lee",
-    img: "FqObKS4.jpg",
+    name: "Yuqi",
+    img: "fEkX7Ez.jpg",
     opts: {
-      series: [ "NCT" ],
+      series: [ "IDOL" ],
       stage: []
     }
   },
   {
-    name: "Mark Tuan",
-    img: "AkSuqcw.jpg",
+    name: "Wonwoo",
+    img: "HdCD4Ek.jpg",
     opts: {
-      series: ["Got7"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Peniel",
-    img: "xIctkvy.jpg",
+    name: "Yubin",
+    img: "DrQWOrC.jpg",
     opts: {
-      series: [ "BtoB" ],
+      series: [ "IDOL" ],
       stage: []
     }
   },
   {
-    name: "Mingi",
-    img: "xQxxRcl.jpg",
+    name: "Miya",
+    img: "sl57eG2.jpg",
     opts: {
-      series: ["Ateez"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Yeo One",
-    img: "gqtJCEq.jpg",
+    name: "Kihyun",
+    img: "hIeGj2A.jpg",
     opts: {
-      series: ["Pentagon"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Taeyang",
-    img: "Vxgz192.jpg",
+    name: "Kang Daniel",
+    img: "SFjwJrO.jpg",
     opts: {
-      series: ["Bigbang"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Yugyeom",
-    img: "Mr0SY40.jpg",
+    name: "Jeup",
+    img: "r7L8cOv.jpg",
     opts: {
-      series: ["Got7"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Lucas",
-    img: "IAhVa9b.jpg",
+    name: "Jennie",
+    img: "xl09AFu.jpg",
     opts: {
-      series: ["NCT"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Lia",
-    img: "cX7teIR.jpg",
+    name: "Jeonghwa",
+    img: "d2MUiuw.jpg",
     opts: {
-      series: ["Itzy"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Chen",
-    img: "A6YBU6K.jpg",
+    name: "Hani",
+    img: "dnsMYmb.jpg",
     opts: {
-      series: ["EXO"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Soyeon",
-    img: "szBCQZh.jpg",
+    name: "Irene",
+    img: "p0t2c1D.jpg",
     opts: {
-      series: ["GIdle"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Sanha",
-    img: "1UkLRRA.png",
+    name: "Gikwang",
+    img: "QjVGJvc.jpg",
     opts: {
-      series: ["Astro"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Wendy",
-    img: "TjsNQ2Z.jpg",
+    name: "Eunbin",
+    img: "uDWDNJS.jpg",
     opts: {
-      series: [ "Red Velvet" ],
+      series: [ "IDOL" ],
       stage: []
     }
   },
   {
-    name: "Xiumin",
-    img: "OMyJ6u8.jpg",
+    name: "Donghan",
+    img: "DIiqRNt.png",
     opts: {
-      series: ["EXO"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Seonghwa",
-    img: "zmhjW6m.jpg",
+    name: "Jisoo",
+    img: "f54aMh1.jpg",
     opts: {
-      series: ["Ateez"],
+      series: ["IDOL"],
       stage: []
     }
   },
   {
-    name: "Chaeryeong",
-    img: "2a90oxh.jpg",
+    name: "Chungha",
+    img: "4Jh1EG0.jpg",
     opts: {
-      series: ["Itzy"],
-      stage: [], 
+      series: ["IDOL"],
+      stage: []
+    }
+  },
+  {
+    name: "Dawon",
+    img: "0karCSu.jpg",
+    opts: {
+      series: ["IDOL"],
+      stage: []
+    }
+  },
+ 
+  {
+    name: "Suhan",
+    img: "A1Zu83Y.jpg",
+    opts: {
+      series: ["IDOL"],
+      stage: []
     }
   }
 ];
